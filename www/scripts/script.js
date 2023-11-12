@@ -77,3 +77,76 @@ lastName = 'Yamato'
 
 console.log(lastName);
 */
+
+// // Math Operators
+
+// const now = 2037;
+// const ageNami = now - 2023;
+// const ageRobin = now - 2011;
+// console.log(ageNami);
+// console.log(ageNami, ageRobin);
+
+
+// console.log(ageNami * 2, ageRobin / 2, 2 ** 3);
+// // 2 ** 3 means to to the power of 3 = 2 * 2 * 2
+
+// const firstName = 'Nami';
+// const lastName = 'Onami';
+// console.log(firstName + ' ' + lastName);
+
+
+// // Assigment Operators
+
+// let x = 10 + 5; // 15
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x * 4 = 100
+// x++; // x = x + 1
+// x--; // x = x - 1
+// console.log(x)
+
+// //Comparison Operators
+
+// console.log(ageNami > ageRobin); // >, <? >=, <=
+// console.log(ageNami >= 18);
+// console.log(ageRobin >= 18);
+
+// const isFullAge = ageRobin >= 18;
+
+// console.log(now - 2023 < now - 2011);
+
+// const now = 2037;
+// const ageNami = now - 2023;
+// const ageRobin = now - 2011;
+
+// console.log(now - 2023 < now - 2011);
+
+// // console.log(25 - 10 - 5);
+
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10, x = 10;
+// console.log(x, y);
+
+// const average = (ageNami + ageRobin) / 2;
+// console.log(average);
+// console.log(ageNami, ageRobin);
+
+const firstName = 'Nami';
+const job = 'pirate';
+const birthYear = '1994';
+const year = 2023;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(jonasNew);
+
+console.log(`Just a regular string..`);
+
+console.log(`String with \n\
+  multiple \n\
+  lines`);
+
+console.log(`String
+                multiple
+                lines`)
