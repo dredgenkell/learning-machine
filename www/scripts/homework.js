@@ -21,12 +21,12 @@
 // console.log(population > populationFinland);
 // console.log(population < averagePopulation);
 
-let massMark = 78
-let heightMark = 1.69
-let massJohn = 92
-let heightJohn = 1.95
+// let massMark = 78
+// let heightMark = 1.69
+// let massJohn = 92
+// let heightJohn = 1.95
 
-console.log(massMark, massJohn, heightMark, heightJohn);
+// console.log(massMark, massJohn, heightMark, heightJohn);
 
 // let bmiMark = massMark / heightMark ** 2;
 // console.log(bmiMark);
@@ -47,4 +47,9 @@ let markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
 
 
+if (bmiMark > bmiJohn) {
+  console.log(`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn})`)
+} else {
+  console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})`)
+}
 
