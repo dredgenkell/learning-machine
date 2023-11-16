@@ -78,6 +78,7 @@ lastName = 'Yamato'
 console.log(lastName);
 */
 
+
 // // Math Operators
 
 // const now = 2037;
@@ -248,3 +249,27 @@ console.log(lastName);
 // if (favourite !== 23) console.log('Why not 23, bro?');
 
 
+const hasDriversLicence = true; //A
+const hasGoodVision = false; // B
+
+// console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+// console.log(!hasDriversLicence);
+
+// const shouldDrive = hasDriversLicence && hasGoodVision;
+
+// if (shouldDrive) {
+//     console.log('Nami is able to drive!')
+// } else {
+//     console.log('Time for a walk baby')
+// };
+
+
+const isTired = false; //C
+console.log(hasDriversLicence && hasGoodVision && isTired);
+
+if (hasDriversLicence && hasGoodVision && !isTired) {
+  console.log('Nami is able to drive!')
+} else {
+  console.log('Time for a walk baby')
+};
