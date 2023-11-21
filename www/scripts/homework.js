@@ -55,28 +55,40 @@
 
 /////////////////////////////////////////////////////////////////
 
-const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
-// const scoreDolphins = (97 + 112 + 101) / 3;
-// const scoreKoalas = (109 + 95 + 123) / 3;
-// const scoreDolphins = (97 + 112 + 101) / 3;
-// const scoreKoalas = (109 + 95 + 106) / 3;
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// // const scoreDolphins = (97 + 112 + 101) / 3;
+// // const scoreKoalas = (109 + 95 + 123) / 3;
+// // const scoreDolphins = (97 + 112 + 101) / 3;
+// // const scoreKoalas = (109 + 95 + 106) / 3;
 
-console.log(scoreDolphins, scoreKoalas);
+// console.log(scoreDolphins, scoreKoalas);
 
-const minScore = 100;
-const winDolphins = scoreDolphins > scoreKoalas;
-const winKoalas = scoreKoalas > scoreDolphins;
-const teamDraw = scoreDolphins === scoreKoalas;
-const winConditionDolphins = scoreDolphins >= minScore;
-const winConditionKoalas = scoreKoalas >= minScore;
+// const minScore = 100;
+// const winDolphins = scoreDolphins > scoreKoalas;
+// const winKoalas = scoreKoalas > scoreDolphins;
+// const teamDraw = scoreDolphins === scoreKoalas;
+// const winConditionDolphins = scoreDolphins >= minScore;
+// const winConditionKoalas = scoreKoalas >= minScore;
 
-if (winDolphins && winConditionDolphins) {
-  console.log('And the winner is DOLPHINS!');
-} else if (winKoalas && winConditionKoalas) {
-  console.log('And the winner is KOALAS!');
-} else if (teamDraw && (winConditionDolphins && winConditionKoalas)) {
-  console.log("IS'S A DRAW!");
-} else if (!winConditionDolphins && !winConditionDolphins); {
-  console.log('No winner for today..');
-};
+// if (winDolphins && winConditionDolphins) {
+//   console.log('And the winner is DOLPHINS!');
+// } else if (winKoalas && winConditionKoalas) {
+//   console.log('And the winner is KOALAS!');
+// } else if (teamDraw && (winConditionDolphins && winConditionKoalas)) {
+//   console.log("IS'S A DRAW!");
+// } else if (!winConditionDolphins && !winConditionDolphins); {
+//   console.log('No winner for today..');
+// };
+
+////////////////////////////////////////////////////////////////////////////
+
+
+const bill = 430;
+const tip1 = bill * 0.15;
+const tip2 = bill * 0.2;
+bill >= 50 && bill <= 300 ? console.log(`The bill was ${bill}, the tip was ${tip1}, and the total value ${bill + tip1}`) :
+  console.log(`The bill was ${bill}, the tip was ${tip2}, and the total value ${bill + tip2}`);
+
+
+
